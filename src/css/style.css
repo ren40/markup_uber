@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+nav {
     height: 50px;
     background: #212121;
 }
@@ -16,7 +16,6 @@ header nav .menu {
 }
 
 header nav .menu .menu_link {
-    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     color: #FFFFFF;
@@ -25,4 +24,58 @@ header nav .menu .menu_link {
 header nav .menu .menu_item {
     border-right: 2px dotted #000000;
     padding-right: 28px;
+}
+
+.menu_subheader {
+    height: 87px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.menu_subheader .menu_subheader_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.menu_subheader .menu_subheader_text {
+    margin-top: 6px;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.menu_subheader .menu_subheader_call {
+    margin-top: 24px;
+    text-align: right;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.menu_subheader .menu_subheader_phone {
+    display: block;
+    margin-top: 8px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: right;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.menu_subheader .menu_subheader_btn {
+    margin-top: 23px;
+    width: 172px;
+    height: 46px;
+    border: none;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
