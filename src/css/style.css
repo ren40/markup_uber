@@ -142,3 +142,65 @@ nav .menu .menu_item {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+.reasons {
+    padding: 20px 0 64px 0;
+}
+
+.reasons .card {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reasons .card .card_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.label {
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    text-align: center;
+    padding: 5px 12px;
+    background: #000000;
+    font-weight: 300;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.title {
+    margin-top: 32px;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.reasons .card .card_descr {
+    width: 372px;
+}
+
+.reasons .card .card_descr .card_title {
+    color: #1EACC7;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.reasons .card .card_descr .card_body {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
