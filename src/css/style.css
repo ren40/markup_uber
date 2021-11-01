@@ -34,10 +34,14 @@ nav .menu .menu_item {
     padding-right: 28px;
 }
 
+nav .menu .menu_item:last-child {
+    border-right: none
+}
+
 .menu_subheader {
     position: absolute;
     width: 100%;
-    top:50px;
+    top: 50px;
     height: 87px;
     background: rgba(0, 0, 0, 0.6);
 }
@@ -134,7 +138,6 @@ nav .menu .menu_item {
     background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
     box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -204,3 +207,4 @@ nav .menu .menu_item {
     font-size: 15px;
     line-height: 21px;
 }
+
